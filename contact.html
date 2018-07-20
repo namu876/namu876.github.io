@@ -1,0 +1,106 @@
+<html>
+<head>
+<style>
+*{
+margin:0px;
+padding:0px;
+}
+* {
+box-sizing:border-box;}
+.navbar{
+height:60px;
+background-color:#A09716;
+}
+.shift{
+margin-left:20px;
+}
+h2{
+color:black;
+font-face:Arial;
+font-weight:bold;
+padding:12px;
+font-size:30px;
+}
+.navbar a{
+width:13%;
+height:40px;
+float:right;
+color:white;
+font-face:times new roman;
+font-weight:bold;
+font-size:25px;
+line-height:25px;
+
+padding:10px;
+text-align:center;
+margin-top:10px;
+
+border-radius:10px;
+display:block;
+}
+.navbar a:hover{
+background-color:yellow;
+color:red;
+
+}
+
+.photo{
+border:1px solid black;
+}
+.full{
+background:url("pi.jpg") no-repeat;
+background-size:cover;
+height:900px;
+}
+.footer{
+height:120px;
+background-color:#90725F;
+color:black;
+}
+img:hover {
+transform:scale(0.5);
+transition : 3s transform;}
+form{
+margin-top:10px;
+margin-left:70px;
+font-size:40px;
+}
+#sendstyle {
+height:50px;
+width:100px;
+border-radius:10px;
+background-color:cyan;
+color:black;
+margin-top:10px;
+}
+textarea{
+margin-top:10px;
+}
+message{
+margin-top:5px;
+}
+</style>
+</head>
+<body>
+<div class="full">  
+<div class="navbar"> 
+<a href="contact.html"> Contact Me </a> 
+ <a href="gall.html"> Gallery </a>
+ <a href="back.html"> About Me </a> 
+ <a href="Home.html"> Home </a>
+<div class="shift"> <h2><u> NAMAN GOYAL </u></h2>
+ </div> 
+<br clear="both"/>
+</div>
+<div class="box">
+<form> 
+Name: </br>  <input type = "text" size="40" style="height:40;" placeholder="Your Name.."> <br/>
+Email: </br>  <input type = "text" size="40" style="height:40;"placeholder="Your Email Adress.."> <br/>
+Message : <br/>
+ <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea><br/> 
+<button type="send" size="80" id="sendstyle">Send </button>
+</form>
+</div>
+</div>
+</body>
+</html>
